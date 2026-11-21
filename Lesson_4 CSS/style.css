@@ -1,0 +1,20 @@
+body{
+    background-color: goldenrod;
+}
+h1{
+    color: black;
+    background-color: beige;
+    margin: 0cap;
+}
+p{
+    color: aqua;
+}
+h3, h4, h6{
+    background-color: blue;
+}
+
+#nav{
+    color: brown;
+    font-size: large;
+    text-align: end;
+}
