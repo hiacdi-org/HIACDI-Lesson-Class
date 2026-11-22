@@ -3,23 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduction To Css</title>
-    <link rel="stylesheet" href="/style.css">
+    <title>Students Information Forms</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello Everyone</h1>
-    <h3>Najma</h3>
-    <h4>Fatuma</h4>
-    <h6>Hassan</h6>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut minima harum dolorem est reiciendis corrupti. Labore fugiat 
-        perspiciatis deleniti necessitatibus in? Ullam qui possimus libero fugiat excepturi adipisci fugit perspiciatis?</p>
+    <div class="container">
 
-       <ul id="nav">
-            <li>Data Science</li>
-            <li>Software engineer</li>
-            <li>Networking</li>
-            <li>Cyber security</li>
-        </ul>  
+    <h1>Student Information Form</h1>
+    <p>Please fill in your details below:</p>
+        <form>
+            <h3>Personal Information</h3>
+            <label>Full Name:</label>
+            <input type="text" name="full name" placeholder="Enter Your Full name" required>
+
+             <label>Email Address:</label>
+             <input type="email" name="email" id="" placeholder="Enter Your Email Address">
+
+             <label>Phone No:</label>
+             <input type="number" name="phone number" id="" placeholder="Enter Your Phone Number">
+
+             <label>Gender:</label>
+             <select name="" id="">
+                 <option value="" disabled selected>-- select gender --</option>
+                 <option value="">Male</option>
+                 <option value="">female</option>
+                 <option value="">Prefer not to say</option>
+             </select>
+
+
+             <h3>Academic Information</h3>
+             <label for="">Course:</label>
+             <select name="" id="">
+                 <option value="" disabled selected>-- Select Course --</option>
+                 <option value="">Data Science</option>
+                 <option value="">Software Engineering</option>
+                 <option value="">Cyber security</option>
+             </select>
+
+        
+             <div class="radio">
+
+                 <label for="">Learning Mode:</label>
+                 <input type="radio" name="mode">Online
+                 <input type="radio" name="mode" id="">Physical
+             </div>
+
+
+             <h3>Additional Information</h3>
+
+             <label for="">Learning goals?</label>
+             <textarea name="" id="" placeholder="Enter Your Learning Goals"></textarea>
+
+
+             <div class="checkbox">
+                <input type="checkbox" required>I confirm that the information is correct.
+             </div>
+             <button type="submit">Submit</button>
+             <button type="reset" id="reset">Reset</button>
+    </form>
+    </div>
 </body>
 </html>
