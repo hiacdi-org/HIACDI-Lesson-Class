@@ -328,3 +328,45 @@ Each student must:
 | Total                    | 100 |
 
 **Important:** Each student must work independently and submit their own HTML and CSS files. kindly do not copy your friend's design.
+
+
+Class work as a project together
+
+title: Students Information Forms
+heading: Student Information Form
+Paragraph: Please fill in your details below
+
+1. Personal Information
+Full Name (Enter your full name)
+
+Email Address (Enter your email)
+
+Phone Number (Enter your phone number)
+
+Gender
+◯ Male
+
+◯ Female
+
+◯ Other
+
+
+2. Academic Information
+Course (Select your course)
+
+Education Level (Select education level)
+
+Learning Mode
+◯ Online
+
+◯ Physical
+
+
+3. Additional Information
+What are your learning goals? (Write your answer here...)
+
+I confirm that the information is correct.
+
+Submit
+
+Reset
